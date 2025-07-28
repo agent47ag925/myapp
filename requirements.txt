@@ -126,7 +126,7 @@ pipwin==0.5.2
 platformdirs==4.3.7
 prometheus_client==0.21.1
 prompt_toolkit==3.0.51
-protobuf==6.31.1
+protobuf==5.26.1
 pure_eval==0.2.3
 pyarrow==21.0.0
 pyasn1==0.6.1
