@@ -47,7 +47,7 @@ if submit:
 			st.write('>> LangGraph 실행 완료! <<')
 
 			#최종 상태 추출
-			final_state = events[-1].get('__end__') or events[-1].get('summarize_message', {})
+			final_state = events[-1].get('__end__') or events[-1].get('summarize_messages', {})
 			final_message = final_state.get('final_message', '추천 내용이 존재하지 않습니다.')
 			st.write(final_message)
 

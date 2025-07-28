@@ -410,6 +410,8 @@ def summarize_messages(state: dict) -> dict:
 
 	])
 
+	print(response.content)
+
 	return {**state, 'final_message': response.content.strip()}
 
 
